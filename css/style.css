@@ -24,6 +24,44 @@ body {
   width: 1280px;
 }
 
+.masthead-intro,
+.masthead-heading {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+}
+
+.masthead-heading {
+  margin-bottom: .5em;
+}
+
+.masthead-intro {
+  margin-top: -0.2em;
+}
+
+.info h1 {
+  text-align: center;
+}
+
+.info-container {
+  text-align:center;
+}
+
+.info .title {
+  font-weight: bold;
+  margin-top: -1em;
+}
+
+.info {
+  vertical-align:top;
+  display:inline-block;
+  width: 30%;
+  padding-left: 30px;
+  box-sizing:border-box;
+}
+
 nav {
   background-image: url('../images/twitter_web_sprite_bgs.png');
   background-repeat: repeat-x;
@@ -177,4 +215,11 @@ table.stats small {
 
 table.stats td:first-child {
   padding-left: 18px;
+}
+
+footer {
+  position:absolute;
+  bottom:10px;
+  text-align:center;
+  width:100%;
 }
